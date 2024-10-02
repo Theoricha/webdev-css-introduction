@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Sixtyfour+Convergence);
+.para {
+    color: blueviolet
+}
+
+body{
+    font-family: helvetica, arial, sans-serif;	color:#000099;
+    background-color:#FFFFCC;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight:100;
+    background-color:#cccccc;
+    text-align: center;
+}
+
+#footer {
+    color: #0066CC;
+    background-color: #CCCCCC;
+    font-size: 10px;
+    text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li a:link{
+    text-decoration:none;
+    color:#000000;
+}
+nav li a:visited{
+    text-decoration:none;
+    color:#CCCCCC;
+}
+nav li a:hover{
+    text-decoration:underline;
+    color:#66CC00;
+}
+nav li a:active{
+    text-decoration:underline;
+    color:#CC6600;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'Sixtyfour Convergence', sans-serif;
+}
+
+.quals{
+    border-collapse: collapse;
+}
+.quals th{
+    border-bottom:3px solid #ccc;
+    padding:5px;
+}
+.quals td{
+    border-bottom:1px solid #ccc;
+    padding:5px;
+}
